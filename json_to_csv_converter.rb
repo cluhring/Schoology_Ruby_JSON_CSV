@@ -14,7 +14,7 @@ require 'json'
     headers = array_of_hashes[0].keys
      
     #write to csv
-    CSV.open("new_file.csv", "wb") do |csv|
+    CSV.open("output_data.csv", "wb") do |csv|
       
               #first line is headers
               csv << headers
